@@ -22,7 +22,9 @@
       <ul>
         <li><a href="index.html">Join the club</a></li>
         <li><a href="news.html">Latest news</a></li>
-        <li><a href="games.html" class="join">New games</a></li>
+        <li>
+          <a href="games.html" class="join" aria-current="page">New games</a>
+        </li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -95,10 +97,14 @@
         dignissimos minus voluptatem.
       </p>
       <form>
+        <label for="email">Email address</label>
+
         <input
           type="email"
+          id="email"
           name="email"
-          placeholder="Type email & hit enter"
+          autocomplete="email"
+          placeholder="name@example.com"
           required
         />
       </form>
