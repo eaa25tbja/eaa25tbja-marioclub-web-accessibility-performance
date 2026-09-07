@@ -23,10 +23,12 @@ header {
 }
 header .logo {
   color: white;
+  background-color: #a60000;
   border: 8px solid white;
   display: inline-block;
   padding: 6px 12px;
   border-radius: 36px;
+  font-weight: bold;
 }
 
 .banner {
