@@ -29,6 +29,7 @@ header .logo {
   padding: 6px 12px;
   border-radius: 36px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .banner {
@@ -145,6 +146,12 @@ section.join h2 {
 form {
   padding-left: 1.5rem;
   padding-top: 6rem;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 form input {
