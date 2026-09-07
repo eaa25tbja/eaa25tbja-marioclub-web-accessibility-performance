@@ -39,8 +39,8 @@ header .logo {
   width: 100%;
 }
 .banner .welcome {
-  background: #feb614;
-  color: white;
+  background: white;
+  color: red;
   padding: 30px;
   font-size: 60px;
   position: absolute;
@@ -191,10 +191,13 @@ input[type="submit"]:focus {
   outline: none;
 }
 footer {
-  background: #f63232;
-  color: white;
+  background: black;
   padding: 10px;
   text-align: center;
+}
+
+footer p {
+  color: white;
 }
 
 /* responsive styles */
